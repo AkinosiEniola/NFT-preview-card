@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    
+}
+.main-background{
+    
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(216, 50%, 16%);
+    margin: 0 40%;
+    padding: 15px 15px;
+    border-radius: 8px;
+}
+.equilibrium{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 90%;
+    border-radius: 8px;
+}
+.text{
+    padding: 10px
+}
+.flex{
+    padding: 0 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+hr{
+    background-color: hsl(215, 32%, 27%);
+}
+.foot{
+    display: flex;
+    padding: 10px;
+}
+.avatar{
+    width: 20%;
+    height: 20%;
+    margin-right: 8px;
+    border: 1px white solid;
+    border-radius: 50%;
+}
+span{
+    color: white;
+}
